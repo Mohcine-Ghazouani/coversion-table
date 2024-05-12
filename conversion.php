@@ -61,28 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <title>Conversion</title>
 </head>
-<style>
-    fieldset{  border-radius: 10px;
-        width: 500px;
-        height: auto;
-        justify-content: center;
-        margin: auto;
-        margin-top: 40px;
-    }
-    #nbr{
-        border-radius: 6px;
-        width: 100%;
-        height: 30px;
-    }
-    #but{
-        border: none;
-        border-radius: 6px;
-        background-color: green;
-        width: 100%;
-        height: 30px;
-        color: white;
-    }
-</style>
+
 <body>
     <!-- method POST:  envoi des données a travers protocole HTTP ( les sockets)
 vers le serveur pour le traitement  -->
