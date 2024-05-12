@@ -52,19 +52,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $message = "<div > $nb $tpd = $res $tpf</div>";
     }
 }
-
-
-
 ?>
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="learning php">
     <meta name="keywords" content="HTML, CSS, JavaScript">
-
-
     <title>Conversion</title>
 </head>
 <style>
@@ -90,7 +84,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 </style>
 <body>
-
     <!-- method POST:  envoi des données a travers protocole HTTP ( les sockets)
 vers le serveur pour le traitement  -->
     <form method="POST" action="<?= $_SERVER["PHP_SELF"] ?>">
