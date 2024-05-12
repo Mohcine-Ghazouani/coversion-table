@@ -39,7 +39,7 @@ function Conversion(float $num, string $td, string $tf)
                     return $num;
                     break;
             }
-    }
+    } 
 }
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     #verification des donnees 
@@ -104,5 +104,5 @@ vers le serveur pour le traitement  -->
         </fieldset>
     </form>
 </body>
-
+<!-- this push test -->
 </html>
